@@ -18,8 +18,8 @@ def turn(board)
     end
 end
 
-def input_to_index(input)
-  index = user_input.to_i
+def input_to_index(user_input)
+  index = userinput.to_i
   index -= 1
 end
 
